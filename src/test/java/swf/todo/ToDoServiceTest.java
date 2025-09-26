@@ -1,4 +1,5 @@
-import static org.junit.jupiter.api.Assertions.*;
+package swf.todo;
+
 class ToDoServiceTest {
-  
+
 }

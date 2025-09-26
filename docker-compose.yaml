@@ -1,0 +1,16 @@
+services:
+  postgres-db:
+    container_name: ToDo
+    image: postgres # use latest official postgres version
+    restart: always
+    environment:
+      POSTGRES_USER: todo
+      POSTGRES_PASSWORD: todo1
+      POSTGRES_DB: aircraft_repo
+      POSTGRES_HOST_AUTH_METHOD: password
+    ports:
+      - "5433:5432" # 5432 is default POSTGRES port
+
+volumes:
+  postgresql_data:
+    driver: local

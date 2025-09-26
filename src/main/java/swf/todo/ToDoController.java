@@ -1,4 +1,5 @@
-package swf.army.mil.todo;
+package swf.todo;
 
-public class ToDoController {
+public class ToDoController
+{
 }
